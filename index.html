@@ -1,35 +1,79 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Webpage</title>
-        <style media="screen">
-          img{
-            display :block;
-            margin-left: auto;
-            margin-right: auto;
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Webpage</title>
+    <style media="screen">
+    a:link{
+      color:pink;
+      background-color: transparent;
+      text-decoration: none;
+      }
+    a:visited{
+      color:red;
+      background-color: transparent;
+      text-decoration: none;
+      }
+    a:hover {
+      color: blue;
+      background-color: transparent;
+      text-align: none;
+      }
+    a:active{
+      color:blue;
+      text-decoration: underline;
+      background-color: transparent;
+      }
+   body{
+      background-color: lightgreen;
+      }
+   img{
+      display :block;
+      margin-left: auto;
+      margin-right: auto;
+       }
+   h1{
+      color: blue;
+      text-align: center;
+      }
+   #head2{
+      color:rgb(7, 94, 245);
+      }
+  #head4{
+      color:green;
+        }
+  #s1{
+      color:rgb(245, 55, 7);
+        }
+   #g{
+      color:green;
+        }
+  @media only screen and (max-width: 600px) {
+      body {
+        background-color: lightblue;
           }
-          h1{
-            color: rgb(214, 122, 127);
-            text-align: center;
-          }
-        </style>
+  p::selection{
+      color:red;
+      background-color: yellow;
+        }
+   </style>
     </head>
     <body>
       <h1>INDIA </h1>
       <h4>Hello,everyone<br>My neme is Raj Singhania. I am so happy because i am going to tell you about my country.</h4>
       <p>India is a great country where people speak different languages but the national language is Hindi. India is full of different castes, creeds, religion, and cultures but they live together. That is the reasons India is famous for the common saying of unity in diversity. India is the seventh largest country in the whole world.</p>
       <img src="india.jpg" alt="India" style="width:20%"/>
-      <h2>Geography And Culture</h2>
+      <h2 id="head2">Geography And Culture</h2>
       <p>India has the second-largest population in the world. India is also knowns as Bharat, Hindustan and sometimes Aryavart. It is surrounded by oceans from three sides which are Bay Of Bengal in the east, the Arabian Sea in the west and Indian oceans in the south. Tiger is the national animal of India. Peacock is the national bird of India. Mango is the national fruit of India. Jana Gana Mana is the national anthem of India. Vande Mataram is the national song of India. Hockey is the national sport of India. People of different religions such as Hinduism, Buddhism, Jainism, Sikhism, Islam, Christianity and Judaism lives together from ancient times. India is also rich in monuments, tombs, churches, historical buildings, temples, museums, scenic beauty, wildlife sanctuaries, places of architecture and many more. The great leaders and freedom fighters are from India.</p>
-      <h4>Flag of india</h4>
+      <h4 id="head4">Flag of india</h4>
       <p><b>The Indian Flag Has Tricolor</b></p>
       <ol>
-        <li>Saffron</li>
+        <li id="s1">Saffron</li>
         <li>White</li>
-        <li>Green</li>
+        <li id="g">Green</li>
       </ol>
       <p>The first color that is uppermost color in the flag which is the saffron color, stands for purity. The second color i.e. the middle color in the flag is the white color and it stands for peace. The third color that is the lowest color in the flag is the green color and it stands for fertility. The white color has an Ashoka Chakra of blue color on it. Ashoka Chakra contains twenty-four spokes which are equally divided. India has 29 states and 7 union territories.</p>
-      <a href="index1.html">Click Here for States and Capitals</a>
+      <a href="index1.html">Top Most Developed States in India</a>
 
 
     </body>
